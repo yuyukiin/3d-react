@@ -1,6 +1,4 @@
-# Criando README.md completo para o projeto "3d-react", incluindo Tailwind e Spine
-
-markdown_3d_react = """# 🌐 3D React
+# 🌐 3D React
 
 Uma aplicação experimental com renderização tridimensional integrada ao React, utilizando bibliotecas modernas como **react-three-fiber**, **Tailwind CSS** e **Spine Web Player**. O projeto demonstra a criação de ambientes 3D e integração de animações esqueléticas diretamente em aplicações web.
 
@@ -17,34 +15,16 @@ Uma aplicação experimental com renderização tridimensional integrada ao Reac
 - **HTML5 + CSS3**
 
 ---
-```md
-## 📁 Estrutura do Projeto
-3d-react/
-├── public/ # Arquivos públicos e index.html
-│ └── index.html
-├── src/
-│ ├── assets/ # Assets visuais e modelos
-│ ├── components/ # Componentes de cena 3D e UI
-│ ├── styles/ # Configuração do Tailwind
-│ ├── App.js # Componente principal
-│ └── main.jsx # Ponto de entrada da aplicação
-├── tailwind.config.js # Configuração do Tailwind
-├── vite.config.js # Configuração do Vite
-├── package.json # Dependências do projeto
-└── README.md # Documentação do projeto
 
-```
+## Preview
 
-## 📸 Preview
-
-> *(Adicione aqui uma imagem ou vídeo demonstrando o projeto se desejar)*
+> ![Preview do Projeto](https://github.com/yuyukiin/3d-react/raw/main/imagens/3d-react.png)
 
 ---
 
-
 ## 📦 Como Rodar o Projeto
 
-
+```bash
 # Clone o repositório
 git clone https://github.com/yuyukiin/3d-react.git
 
@@ -58,35 +38,30 @@ npm install
 npm run dev
 
 # Acesse http://localhost:5173 no navegador
-💡 Funcionalidades
-Renderização de objetos e ambientes 3D com react-three-fiber
+```
 
-Animações esqueléticas via Spine Web Player
+## 💡 Funcionalidades
 
-Estilização moderna e responsiva com Tailwind CSS
+- Renderização de objetos e ambientes 3D com react-three-fiber
 
-Organização modular de componentes
+- Animações esqueléticas via Spine Web Player
 
-Interação com elementos em cena 3D (rotações, zoom, etc.)
+- Estilização moderna e responsiva com Tailwind CSS
 
-🎯 Possíveis Melhorias Futuras
-Suporte a carregamento de arquivos .gltf, .fbx ou .spine
+- Organização modular de componentes
 
-Inclusão de controle por teclado e câmera personalizada
+- Interação com elementos em cena 3D (rotações, zoom, etc.)
 
-Transições suaves com Framer Motion
+## 🎯 Possíveis Melhorias Futuras
 
-Sistema de gerenciamento de estados com Zustand ou Redux
+- Suporte a carregamento de arquivos .gltf, .fbx ou .spine
 
-✍️ Feito por
+- Inclusão de controle por teclado e câmera personalizada
+
+- Transições suaves com Framer Motion
+
+- Sistema de gerenciamento de estados com Zustand ou Redux
+
+## ✍️ Feito por
+
 Desenvolvido por Yuri Alexander
-GitHub • LinkedIn
-
-"""
-
-Salvando como README.md
-path_md = "/mnt/data/README_3d_react.md"
-with open(path_md, "w", encoding="utf-8") as f:
-f.write(markdown_3d_react)
-
-path_md
